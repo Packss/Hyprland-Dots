@@ -19,6 +19,7 @@ config_file="/tmp/bar_cava_config"
 cat >"$config_file" <<EOF
 [general]
 bars = 10
+framerate = 20
 
 [input]
 method = pulse
